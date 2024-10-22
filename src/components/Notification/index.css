@@ -1,0 +1,57 @@
+.notification-item {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  width: 100%;
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.notification-icon {
+  width: 80px;
+}
+
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  width: 73%;
+  margin-left: 20px;
+}
+
+.notification-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0px;
+}
+
+.notification-description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin: 30px 0px 20px 0px;
+}
+
+.close-icon {
+  align-self: center;
+  margin-left: auto;
+}
